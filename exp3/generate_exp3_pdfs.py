@@ -4,9 +4,9 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
+from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
     Image,
-    PageBreak,
     Paragraph,
     Preformatted,
     SimpleDocTemplate,
@@ -76,16 +76,26 @@ def build_pdf(output_pdf, title, program_path, output_image_path, image_height_i
     story.append(Paragraph("PROGRAM:", label_style))
     story.append(Preformatted(program_code, code_style))
 
-    story.append(PageBreak())
     story.append(Paragraph("OUTPUT:", label_style))
     story.append(Spacer(1, 6))
-    story.append(
-        Image(
-            str(output_image_path),
-            width=6.5 * inch,
-            height=image_height_inch * inch,
-        )
+
+    max_width = 6.5 * inch
+    max_height = image_height_inch * inch
+    img_reader = ImageReader(str(output_image_path))
+    img_width, img_height = img_reader.getSize()
+
+    # Preserve aspect ratio and avoid upscaling to keep screenshots sharper.
+    scale = min(max_width / img_width, max_height / img_height, 1.0)
+    draw_width = img_width * scale
+    draw_height = img_height * scale
+
+    image_flowable = Image(
+        str(output_image_path),
+        width=draw_width,
+        height=draw_height,
     )
+    image_flowable.hAlign = "LEFT"
+    story.append(image_flowable)
 
     doc.build(story, onFirstPage=add_page_border, onLaterPages=add_page_border)
 
@@ -98,7 +108,7 @@ def main():
             "program": "programs/first-order.pl",
             "image": "output-images/3-a-simple-facts-output.png",
             "pdf": "3-a_SimpleFacts.pdf",
-            "height": 1.8,
+            "height": 2.4,
         },
         {
             "folder": "3-b-family-facts",
