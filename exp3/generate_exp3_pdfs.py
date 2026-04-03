@@ -113,7 +113,7 @@ def main():
             "program": "programs/first-order.pl",
             "image": "output-images/3-a-simple-facts-output.png",
             "pdf": "3-a_SimpleFacts.pdf",
-            "height": 2.4,
+            "height": 2.7,
         },
         {
             "folder": "3-b-family-facts",
@@ -121,7 +121,7 @@ def main():
             "program": "programs/family-facts.pl",
             "image": "output-images/3-b-family-facts-output.png",
             "pdf": "3-b_FamilyFacts.pdf",
-            "height": 2.4,
+            "height": 2.9,
         },
         {
             "folder": "3-c-monkey-banana",
@@ -129,7 +129,7 @@ def main():
             "program": "programs/monkey-banana.pl",
             "image": "output-images/3-c-monkey-banana-output.png",
             "pdf": "3-c_MonkeyBanana.pdf",
-            "height": 2.4,
+            "height": 2.7,
         },
         {
             "folder": "3-d-arithmetic",
@@ -137,7 +137,7 @@ def main():
             "program": "programs/arithmetic.pl",
             "image": "output-images/3-d-arithmetic-output.png",
             "pdf": "3-d_Arithmetic.pdf",
-            "height": 2.4,
+            "height": 2.6,
         },
         {
             "folder": "3-e-facorial",
@@ -145,7 +145,7 @@ def main():
             "program": "programs/factorial.pl",
             "image": "output-images/3-e-facorial-output.png",
             "pdf": "3-e_Factorial.pdf",
-            "height": 2.4,
+            "height": 2.8,
         },
         {
             "folder": "3-f-fibonacci",
@@ -153,7 +153,7 @@ def main():
             "program": "programs/Fibonacci.pl",
             "image": "output-images/3-f-fibonacci-output.png",
             "pdf": "3-f_Fibonacci.pdf",
-            "height": 2.4,
+            "height": 2.6,
         },
         {
             "folder": "3-g-toh",
@@ -161,7 +161,7 @@ def main():
             "program": "programs/toh.pl",
             "image": "output-images/toh-output.png",
             "pdf": "3-g_TOH.pdf",
-            "height": 2.4,
+            "height": 2.5,
         },
         {
             "folder": "3-h-water-jug",
@@ -169,7 +169,7 @@ def main():
             "program": "programs/water-jug.pl",
             "image": "output-images/3-h-water-jug-output.png",
             "pdf": "3-h_WaterJug.pdf",
-            "height": 2.4,
+            "height": 1.9,
         },
     ]
 
