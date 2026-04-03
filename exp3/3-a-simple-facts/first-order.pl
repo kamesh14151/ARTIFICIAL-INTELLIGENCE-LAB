@@ -1,11 +1,15 @@
 % Facts
-parent(john, mary).
-parent(mary, sam).
-parent(john, alice).
-
-male(john).
+like(john, pizza).
+hate(mary, rain).
+own(john, car).
+father(john, mike).
 female(mary).
-female(alice).
 
-% Rule
-grandparent(X,Z) :- parent(X,Y), parent(Y,Z).
+% Rules
+may_steal(X, Y) :- own(Y, X).
+
+% Interactive query
+run_like :-
+    write('Enter person: '), read(P),
+    write('Enter item: '), read(I),
+    (like(P, I) -> writeln('True') ; writeln('False')).

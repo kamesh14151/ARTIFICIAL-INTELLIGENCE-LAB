@@ -1,7 +1,13 @@
-goal([1,2,3,4,5,6,7,8,0]).
+hanoi(1, Source, Dest, _) :-
+    format('Move disk from ~w to ~w~n', [Source, Dest]).
 
-move([0,X,Y|Rest], [X,0,Y|Rest]).
-move([X,0,Y|Rest], [0,X,Y|Rest]).
+hanoi(N, Source, Dest, Aux) :-
+    N > 1,
+    M is N - 1,
+    hanoi(M, Source, Aux, Dest),
+    hanoi(1, Source, Dest, Aux),
+    hanoi(M, Aux, Dest, Source).
 
-solve(State) :-
-    goal(State).
+run_hanoi :-
+    write('Enter number of disks: '), read(N),
+    hanoi(N, left, right, middle).
