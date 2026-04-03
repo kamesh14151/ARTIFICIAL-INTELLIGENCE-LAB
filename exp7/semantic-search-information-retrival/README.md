@@ -1,4 +1,4 @@
-# Information Retrieval Using Semantic Search
+# EX.NO.7 — Information Retrieval Using Semantic Search
 
 ## 🎯 Aim
 To design and implement a system for **information retrieval using semantic search** by segmenting a string without spaces into meaningful words using a **dictionary and dynamic programming** approach.
@@ -22,9 +22,10 @@ To design and implement a system for **information retrieval using semantic sear
 
 ---
 
-## 💻 Code
+## 💻 Program (Python)
 
-[`exp7/semantic-search/search.py`](exp7/semantic-search/search.py)
+```python
+
 
 ---
 
