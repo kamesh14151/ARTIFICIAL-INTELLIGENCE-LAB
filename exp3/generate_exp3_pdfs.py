@@ -7,6 +7,7 @@ from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
     Image,
+    KeepTogether,
     Paragraph,
     Preformatted,
     SimpleDocTemplate,
@@ -76,16 +77,13 @@ def build_pdf(output_pdf, title, program_path, output_image_path, image_height_i
     story.append(Paragraph("PROGRAM:", label_style))
     story.append(Preformatted(program_code, code_style))
 
-    story.append(Paragraph("OUTPUT:", label_style))
-    story.append(Spacer(1, 6))
-
     max_width = 6.5 * inch
     max_height = image_height_inch * inch
     img_reader = ImageReader(str(output_image_path))
     img_width, img_height = img_reader.getSize()
 
-    # Preserve aspect ratio and allow mild upscaling so screenshots are readable.
-    scale = min(max_width / img_width, max_height / img_height, 1.35)
+    # Preserve aspect ratio and allow only slight upscaling for better fit/readability.
+    scale = min(max_width / img_width, max_height / img_height, 1.15)
     draw_width = img_width * scale
     draw_height = img_height * scale
 
@@ -95,7 +93,14 @@ def build_pdf(output_pdf, title, program_path, output_image_path, image_height_i
         height=draw_height,
     )
     image_flowable.hAlign = "LEFT"
-    story.append(image_flowable)
+
+    # Keep OUTPUT label and image together so label is not left alone on a page.
+    output_block = [
+        Paragraph("OUTPUT:", label_style),
+        Spacer(1, 6),
+        image_flowable,
+    ]
+    story.append(KeepTogether(output_block))
 
     doc.build(story, onFirstPage=add_page_border, onLaterPages=add_page_border)
 
@@ -108,7 +113,7 @@ def main():
             "program": "programs/first-order.pl",
             "image": "output-images/3-a-simple-facts-output.png",
             "pdf": "3-a_SimpleFacts.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-b-family-facts",
@@ -116,7 +121,7 @@ def main():
             "program": "programs/family-facts.pl",
             "image": "output-images/3-b-family-facts-output.png",
             "pdf": "3-b_FamilyFacts.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-c-monkey-banana",
@@ -124,7 +129,7 @@ def main():
             "program": "programs/monkey-banana.pl",
             "image": "output-images/3-c-monkey-banana-output.png",
             "pdf": "3-c_MonkeyBanana.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-d-arithmetic",
@@ -132,7 +137,7 @@ def main():
             "program": "programs/arithmetic.pl",
             "image": "output-images/3-d-arithmetic-output.png",
             "pdf": "3-d_Arithmetic.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-e-facorial",
@@ -140,7 +145,7 @@ def main():
             "program": "programs/factorial.pl",
             "image": "output-images/3-e-facorial-output.png",
             "pdf": "3-e_Factorial.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-f-fibonacci",
@@ -148,7 +153,7 @@ def main():
             "program": "programs/Fibonacci.pl",
             "image": "output-images/3-f-fibonacci-output.png",
             "pdf": "3-f_Fibonacci.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-g-toh",
@@ -156,7 +161,7 @@ def main():
             "program": "programs/toh.pl",
             "image": "output-images/toh-output.png",
             "pdf": "3-g_TOH.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
         {
             "folder": "3-h-water-jug",
@@ -164,7 +169,7 @@ def main():
             "program": "programs/water-jug.pl",
             "image": "output-images/3-h-water-jug-output.png",
             "pdf": "3-h_WaterJug.pdf",
-            "height": 3.0,
+            "height": 2.4,
         },
     ]
 
