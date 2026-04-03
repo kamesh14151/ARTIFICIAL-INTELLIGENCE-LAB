@@ -45,7 +45,7 @@ This chatbot is rule-based, meaning it works using predefined conditions (if-eli
 
 ```python
 def chatbot():
-    print("Chatbot: Hello! I am a simple chatbot 🤖")
+    print("Chatbot: Hello! I am a simple chatbot ")
     print("Chatbot: Type 'bye' to exit.\n")
 
     while True:
@@ -55,13 +55,13 @@ def chatbot():
             print("Chatbot: Hi there! How can I help you?")
         
         elif user_input == "how are you":
-            print("Chatbot: I'm doing great! Thanks for asking 😊")
+            print("Chatbot: I'm doing great! Thanks for asking ")
         
         elif user_input == "what is your name":
             print("Chatbot: My name is SimpleBot.")
         
         elif user_input == "bye":
-            print("Chatbot: Goodbye! Have a nice day 👋")
+            print("Chatbot: Goodbye! Have a nice day ")
             break
         
         else:
@@ -75,7 +75,7 @@ chatbot()
 
 #  Explanation of the Code (Step-by-Step)
 
-## 1️⃣ Function Definition
+## 1 Function Definition
 
 ```python
 def chatbot():
@@ -87,10 +87,10 @@ def chatbot():
 
 ---
 
-## 2️⃣ Welcome Messages
+## 2 Welcome Messages
 
 ```python
-print("Chatbot: Hello! I am a simple chatbot 🤖")
+print("Chatbot: Hello! I am a simple chatbot ")
 print("Chatbot: Type 'bye' to exit.\n")
 ```
 
@@ -99,7 +99,7 @@ print("Chatbot: Type 'bye' to exit.\n")
 
 ---
 
-## 3️⃣ Infinite Loop
+## 3 Infinite Loop
 
 ```python
 while True:
@@ -110,7 +110,7 @@ while True:
 
 ---
 
-## 4️⃣ Taking User Input
+## 4 Taking User Input
 
 ```python
 user_input = input("You: ").lower()
@@ -126,7 +126,7 @@ Hello → hello
 
 ---
 
-## 5️⃣ Conditional Statements
+## 5 Conditional Statements
 
 ### Greeting Condition
 
@@ -160,7 +160,7 @@ elif user_input == "bye":
 
 ---
 
-## 6️⃣ Default Condition
+## 6 Default Condition
 
 ```python
 else:
@@ -171,7 +171,7 @@ else:
 
 ---
 
-## 🔄 Program Flow
+##  Program Flow
 
 1. Chatbot starts
 2. Displays welcome message
@@ -185,7 +185,7 @@ else:
 #  Sample Output
 
 ```
-Chatbot: Hello! I am a simple chatbot 🤖
+Chatbot: Hello! I am a simple chatbot 
 Chatbot: Type 'bye' to exit.
 
 You: hi
@@ -195,20 +195,20 @@ You: what is your name
 Chatbot: My name is SimpleBot.
 
 You: bye
-Chatbot: Goodbye! Have a nice day 👋
+Chatbot: Goodbye! Have a nice day 
 ```
 
 ---
 
 #  Type of Chatbot
 
-✅ Rule-Based Chatbot
-❌ Not AI-based
-❌ Not Machine Learning
+ Rule-Based Chatbot
+ Not AI-based
+ Not Machine Learning
 
 ---
 
-# 🚀 How to Run the Program
+#  How to Run the Program
 
 1. Install Python
 2. Save file as `chatbot.py`
@@ -233,49 +233,49 @@ python chatbot.py
 
 #  VIVA QUESTIONS AND ANSWERS
 
-## 1️⃣ What is a chatbot?
+## 1 What is a chatbot?
 
 A chatbot is a program that simulates conversation with users.
 
 ---
 
-## 2️⃣ What type of chatbot is this?
+## 2 What type of chatbot is this?
 
 This is a rule-based chatbot because it works using predefined conditions.
 
 ---
 
-## 3️⃣ What is the use of while True?
+## 3 What is the use of while True?
 
 It creates an infinite loop that keeps the chatbot running continuously.
 
 ---
 
-## 4️⃣ Why did you use .lower()?
+## 4 Why did you use .lower()?
 
 To convert user input into lowercase and avoid case sensitivity problems.
 
 ---
 
-## 5️⃣ What is the use of break statement?
+## 5 What is the use of break statement?
 
 The break statement is used to stop the loop and exit the program.
 
 ---
 
-## 6️⃣ What are conditional statements?
+## 6 What are conditional statements?
 
 Conditional statements like if, elif, and else are used to make decisions in a program.
 
 ---
 
-## 7️⃣ What is a function?
+## 7 What is a function?
 
 A function is a block of reusable code that performs a specific task.
 
 ---
 
-## 8️⃣ How can you improve this chatbot?
+## 8 How can you improve this chatbot?
 
 * Add more responses
 * Add time/date feature

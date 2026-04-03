@@ -1,11 +1,11 @@
-# 🐒 Monkey and Bananas in Prolog
+#  Monkey and Bananas in Prolog
 
-## 🎯 Aim
+##  Aim
 To simulate the **monkey and banana problem** using **logical reasoning** and **action rules**.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. **Define state transitions**
    - Actions: `move`, `climb`, `drag`, `walk`
@@ -30,15 +30,15 @@ To simulate the **monkey and banana problem** using **logical reasoning** and **
 
 ---
 
-## 💻 Code
-[`exp3/prolog/monkey_banana.pl`](exp3/prolog/monkey_banana.pl)
+##  Code
+[`monkey-banana.pl`](monkey-banana.pl)
 
 ---
 
-## 🖼️ Output
-![Monkey Banana Output](exp3/prolog/monkey_banana.png)
+##  Output
+_Output image not available in repository._
 
 ---
 
-## ✅ Result
+##  Result
 The **monkey and banana problem** was successfully simulated in Prolog. The system derived and displayed the correct sequence of actions leading the monkey to obtain the banana.

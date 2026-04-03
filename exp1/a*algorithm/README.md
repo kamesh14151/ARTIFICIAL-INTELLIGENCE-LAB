@@ -1,11 +1,11 @@
 # A* Algorithm
 
-## 🎯 Aim
+##  Aim
 To implement the **A\* (A-Star) algorithm** to find the shortest path between a start node and a goal node using heuristics.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Initialize the **open list** with the start node; set `g(start) = 0`, `f(start) = g(start) + h(start)`
 2. Initialize **closed list** = empty
@@ -18,17 +18,17 @@ To implement the **A\* (A-Star) algorithm** to find the shortest path between a 
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp1/a*algorithm/a*.py`](exp1/a*algorithm/a*.py)
-
----
-
-## 🖼️ Output
-
-![A* Output](exp1/a*algorithm/a*.png)
+[`programs/a-algorithm.py`](programs/a-algorithm.py)
 
 ---
 
-## ✅ Result
+##  Output
+
+![A* Output](output-images/a-algorithm.png)
+
+---
+
+##  Result
 The **A\* algorithm** was successfully implemented and the shortest path from the **start node** to the **goal node** was found using heuristic values.

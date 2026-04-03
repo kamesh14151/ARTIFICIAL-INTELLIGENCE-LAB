@@ -1,11 +1,11 @@
 # Minimax Algorithm
 
-## 🎯 Aim
+##  Aim
 To implement the **Minimax algorithm** to find the optimal move in a game by minimizing the possible loss and maximizing the possible gain.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Start from the **root node** (initial state)
 2. If the node is a **terminal node** → return its value
@@ -17,17 +17,17 @@ To implement the **Minimax algorithm** to find the optimal move in a game by min
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp2/minmax/minmax.py`](exp2/minmax/minmax.py)
-
----
-
-## 🖼️ Output
-
-![Minimax Output](exp2/minmax/minmax.png)
+[`programs/minmax.py`](programs/minmax.py)
 
 ---
 
-## ✅ Result
+##  Output
+
+![Minimax Output](output-images/minimax.png)
+
+---
+
+##  Result
 The **Minimax algorithm** was successfully implemented and the optimal value for the given game tree was determined.

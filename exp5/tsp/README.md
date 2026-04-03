@@ -1,11 +1,11 @@
 # Travelling Salesman Problem — Brute Force
 
-## 🎯 Aim
+##  Aim
 To find the **shortest possible route** that visits each city exactly once and returns to the starting city using the **brute force approach**.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Input cities and their **pairwise distances**
 2. Generate all **permutations** of city paths starting from one city
@@ -17,20 +17,22 @@ To find the **shortest possible route** that visits each city exactly once and r
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp5/tsp/tsp.py`](exp5/tsp/tsp.py)
+[`programs/tsp.py`](programs/tsp.py)
 
 ---
 
-## 📋 Output
+##  Output
 
 ```
 Path: (0, 1, 3, 2, 0)
 Minimum Cost: 80
 ```
 
+![TSP Output](output-images/tsp.png)
+
 ---
 
-## ✅ Result
+##  Result
 The **Travelling Salesman Problem** was successfully solved using the brute force method, and the optimal path with minimum travel cost was obtained.

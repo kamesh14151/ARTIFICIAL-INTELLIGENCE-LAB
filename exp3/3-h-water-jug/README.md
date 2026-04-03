@@ -1,11 +1,11 @@
-# 🫗 Water Jug Problem in Prolog
+#  Water Jug Problem in Prolog
 
-## 🎯 Aim
+##  Aim
 To implement the **Water Jug problem** using **first-order logic** in Prolog.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. **Define valid jug operations**
    - Actions: `fill`, `empty`, `pour`
@@ -27,15 +27,15 @@ To implement the **Water Jug problem** using **first-order logic** in Prolog.
 
 ---
 
-## 💻 Code
-[`exp3/prolog/water_jug.pl`](exp3/prolog/water_jug.pl)
+##  Code
+[`water-jug.pl`](water-jug.pl)
 
 ---
 
-## 🖼️ Output
-![Water Jug Output](exp3/prolog/water_jug.png)
+##  Output
+_Output image not available in repository._
 
 ---
 
-## ✅ Result
+##  Result
 The **Water Jug problem** was successfully implemented in Prolog. The program explored states using BFS, avoided cycles, and returned the correct sequence of actions to reach the goal state.

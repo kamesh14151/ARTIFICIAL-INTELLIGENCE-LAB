@@ -1,11 +1,11 @@
 # Alpha-Beta Pruning Algorithm
 
-## 🎯 Aim
+##  Aim
 To implement the **Alpha-Beta Pruning algorithm** to optimize the Minimax algorithm by eliminating unnecessary nodes and improving efficiency.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Start with the **root node**
 2. Initialize: `alpha = -∞` (best for MAX), `beta = +∞` (best for MIN)
@@ -24,17 +24,17 @@ To implement the **Alpha-Beta Pruning algorithm** to optimize the Minimax algori
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp2/alpha-beta/alpha-beta.py`](exp2/alpha-beta/alpha-beta.py)
-
----
-
-## 🖼️ Output
-
-![Alpha-Beta Pruning Output](exp2/alpha-beta/alpha-beta.png)
+[`programs/alpha-beta.py`](programs/alpha-beta.py)
 
 ---
 
-## ✅ Result
+##  Output
+
+![Alpha-Beta Pruning Output](output-images/alpha.png)
+
+---
+
+##  Result
 The **Alpha-Beta Pruning algorithm** was successfully implemented and the optimal value was obtained efficiently by pruning unnecessary branches.

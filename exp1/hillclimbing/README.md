@@ -1,11 +1,11 @@
 # Hill Climbing Algorithm
 
-## 🎯 Aim
+##  Aim
 To implement the **Hill Climbing algorithm** to find an optimal solution by iteratively moving towards a better state using heuristic values.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Start with an **initial state**
 2. Evaluate the **heuristic value** of the current state
@@ -19,17 +19,17 @@ To implement the **Hill Climbing algorithm** to find an optimal solution by iter
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp1/hillclimbing/hillclimb.java`](exp1/hillclimbing/hillclimb.java)
-
----
-
-## 🖼️ Output
-
-![Hill Climbing Output](exp1/hillclimbing/hillclimb.png)
+[`programs/hillclimb.java`](programs/hillclimb.java)
 
 ---
 
-## ✅ Result
+##  Output
+
+![Hill Climbing Output](output-images/hill-climbing.png)
+
+---
+
+##  Result
 The **Hill Climbing algorithm** was successfully implemented and the best path from the **start node** to the **goal node** was obtained using heuristic values.

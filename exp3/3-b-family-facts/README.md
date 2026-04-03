@@ -1,11 +1,11 @@
-# 👨‍👩‍👧 Family Facts & Queries in Prolog
+#  Family Facts & Queries in Prolog
 
-## 🎯 Aim
+##  Aim
 To implement and solve **AI-based problems** using **SWI-Prolog**, demonstrating the principles of **logic programming**.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. **Define parent/2 fact**  
    - Represents family relationships.
@@ -27,15 +27,15 @@ To implement and solve **AI-based problems** using **SWI-Prolog**, demonstrating
 
 ---
 
-## 💻 Code
-[`exp3/prolog/family_facts.pl`](exp3/prolog/family_facts.pl)
+##  Code
+[`family-facts.pl`](family-facts.pl)
 
 ---
 
-## 🖼️ Output
-![Prolog Family Output](exp3/prolog/family_facts.png)
+##  Output
+_Output image not available in repository._
 
 ---
 
-## ✅ Result
+##  Result
 The **family knowledge base** was successfully implemented in Prolog. Queries correctly inferred relationships such as **father, mother, grandparent, and siblings** using logical rules.

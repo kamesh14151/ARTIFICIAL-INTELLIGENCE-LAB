@@ -1,11 +1,11 @@
-# 📝 Rule Base & Inference in Prolog
+#  Rule Base & Inference in Prolog
 
-## 🎯 Aim
+##  Aim
 To define a **knowledge base (simple facts)** and query it using **first-order predicate logic** in Prolog.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. **Define Facts**
    - Examples: `like`, `hate`, `own`, `father`, `female`, etc.
@@ -27,15 +27,15 @@ To define a **knowledge base (simple facts)** and query it using **first-order p
 
 ---
 
-## 💻 Code
-[`exp3/prolog/rule_base.pl`](exp3/prolog/rule_base.pl)
+##  Code
+[`first-order.pl`](first-order.pl)
 
 ---
 
-## 🖼️ Output
-![Prolog Output](exp3/prolog/rule_base.png)
+##  Output
+_Output image not available in repository._
 
 ---
 
-## ✅ Result
+##  Result
 The **rule base** was successfully created and queries were evaluated using **Prolog’s inference mechanism**, returning results based on fact matching and logical rules.

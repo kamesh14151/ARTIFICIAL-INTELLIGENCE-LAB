@@ -1,11 +1,11 @@
 # Multi-Agent System — Maze Navigation (GUI)
 
-## 🎯 Aim
+##  Aim
 To simulate a player navigating a maze using **arrow keys** in a GUI environment.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Define maze using a **2D list** (`1` = wall, `0` = path); import `tkinter`, `messagebox`
 2. Set constraints — **cell size**, **start position**, **end position**
@@ -18,17 +18,17 @@ To simulate a player navigating a maze using **arrow keys** in a GUI environment
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp5/maze/maze.py`](exp5/maze/maze.py)
-
----
-
-## 🖼️ Output
-
-![Maze Navigation Output](exp5/maze/maze.png)
+[`programs/maze.py`](programs/maze.py)
 
 ---
 
-## ✅ Result
+##  Output
+
+![Maze Navigation Output](output-images/maze.png)
+
+---
+
+##  Result
 The **multi-agent system** for maze navigation was successfully developed using a GUI environment. The player was able to navigate through the maze using arrow keys, and upon reaching the goal position, a **success message** was displayed.

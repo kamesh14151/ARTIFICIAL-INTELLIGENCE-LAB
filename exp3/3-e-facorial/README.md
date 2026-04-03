@@ -1,12 +1,12 @@
 
-# ✖️ Factorial in Prolog
+#  Factorial in Prolog
 
-## 🎯 Aim
+##  Aim
 To implement the **factorial function** using **first-order logic** in Prolog.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. **Base case**
    - `factorial(0, 1)`
@@ -28,15 +28,15 @@ To implement the **factorial function** using **first-order logic** in Prolog.
 
 ---
 
-## 💻 Code
-[`exp3/prolog/factorial.pl`](exp3/prolog/factorial.pl)
+##  Code
+[`factorial.pl`](factorial.pl)
 
 ---
 
-## 🖼️ Output
-![Factorial Output](exp3/prolog/factorial.png)
+##  Output
+_Output image not available in repository._
 
 ---
 
-## ✅ Result
+##  Result
 The **factorial function** was successfully implemented in Prolog using recursion and first-order logic, producing correct results for given inputs.

@@ -10,11 +10,15 @@ To design and implement a simple chatbot using Python that interacts with users 
 
 ```
 
-chatbot-project/
-│
-├── chatbot-nltk.py
-├── chatbot-rule.py
-├── chatbot-simple.py
+exp8/chatbot-app/
+|-- programs/
+|   |-- chatbot-nltk.py
+|   |-- chatbot-rule.py
+|   `-- chatbot-simple.py
+`-- output-images/
+   |-- chatbot-nltk.png
+   |-- chatbot-rule.png
+   `-- chatbot-simple.png
 
 ```
 
@@ -52,23 +56,39 @@ This repository contains three types of chatbot implementations:
 ```
 
 pip install nltk
-python chatbot-nltk.py
+python programs/chatbot-nltk.py
 
 ```
 
 ### Run Rule-based Chatbot
 ```
 
-python chatbot-rule.py
+python programs/chatbot-rule.py
 
 ```
 
 ### Run Simple Chatbot
 ```
 
-python chatbot-simple.py
+python programs/chatbot-simple.py
 
 ```
+
+---
+
+## Source Code
+
+- [`programs/chatbot-nltk.py`](programs/chatbot-nltk.py)
+- [`programs/chatbot-rule.py`](programs/chatbot-rule.py)
+- [`programs/chatbot-simple.py`](programs/chatbot-simple.py)
+
+---
+
+## Output Images
+
+![NLTK Chatbot Output](output-images/chatbot-nltk.png)
+![Rule Chatbot Output](output-images/chatbot-rule.png)
+![Simple Chatbot Output](output-images/chatbot-simple.png)
 
 ---
 

@@ -1,11 +1,11 @@
 # N-Queens Problem — Backtracking Algorithm
 
-## 🎯 Aim
+##  Aim
 To solve the **N-Queens problem** using the Backtracking algorithm and place N queens on an N×N chessboard such that no two queens attack each other.
 
 ---
 
-## 📚 Algorithm
+##  Algorithm
 
 1. Start with an **empty chessboard**
 2. Place a queen in the **first row**
@@ -19,19 +19,19 @@ To solve the **N-Queens problem** using the Backtracking algorithm and place N q
 
 ---
 
-## 💻 Code
+##  Code
 
-[`exp4/queens/queen.py`](exp4/queens/queen.py)
-
----
-
-## 🖼️ Output
-
-![N-Queens Output](exp4/queens/queen.png)
+[`programs/queen.py`](programs/queen.py)
 
 ---
 
-## 📋 One Possible Solution (8-Queens)
+##  Output
+
+![N-Queens Output](output-images/queens.png)
+
+---
+
+##  One Possible Solution (8-Queens)
 
 ```
 Q . . . . . . .
@@ -46,5 +46,5 @@ Q . . . . . . .
 
 ---
 
-## ✅ Result
+##  Result
 The **N-Queens problem** was successfully solved using the Backtracking algorithm, and a valid arrangement of queens was obtained such that no two queens attack each other.
