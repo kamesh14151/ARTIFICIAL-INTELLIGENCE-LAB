@@ -1,0 +1,27 @@
+🎯 Title
+Creating Rule Base and Inferring Processes Using First-Order Predicate Logic
+
+📌 Aim
+To define a knowledge base (simple facts) and query it using first-order logic in Prolog.
+
+⚙️ Algorithm
+
+1. Define Facts  
+   - Examples: like, hate, own, father, female, etc.  
+
+2. Define Rules  
+   - Example: may_steal(X, Y)  
+
+3. Use Prolog Queries  
+   - Test the knowledge base with queries.  
+
+4. Evaluate Queries  
+   - Perform fact matching and rule inference.  
+
+5. Return Results  
+   - Output true or false based on variable matches.  
+
+6. Enable Dynamic Exploration  
+   - Allow extension and modification of the knowledge base during execution.  
+
+---
