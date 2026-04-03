@@ -1,3 +1,0 @@
-goal = state(2,0)
-solution_path =
-[state(2,0),state(0,2),state(4,2),state(3,3),state(3,0),state(0,3),state(0,0)]
