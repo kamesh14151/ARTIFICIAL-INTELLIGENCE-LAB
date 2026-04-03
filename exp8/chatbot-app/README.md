@@ -76,7 +76,7 @@ python programs/chatbot-simple.py
 
 ---
 
-## Source Code
+## Code
 
 - [`programs/chatbot-nltk.py`](programs/chatbot-nltk.py)
 - [`programs/chatbot-rule.py`](programs/chatbot-rule.py)
@@ -84,7 +84,7 @@ python programs/chatbot-simple.py
 
 ---
 
-## Output Images
+## Output
 
 ![NLTK Chatbot Output](output-images/chatbot-nltk.png)
 ![Rule Chatbot Output](output-images/chatbot-rule.png)

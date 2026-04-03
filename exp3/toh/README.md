@@ -1,11 +1,11 @@
 #  Tower of Hanoi in Prolog
 
-##  Aim
+## Aim
 To implement the **Tower of Hanoi problem** using **first-order logic** in Prolog.
 
 ---
 
-##  Algorithm
+## Algorithm
 
 1. **Base case**
    - Move 1 disk from source to destination.
@@ -27,15 +27,15 @@ To implement the **Tower of Hanoi problem** using **first-order logic** in Prolo
 
 ---
 
-##  Code
+## Code
 [`toh.pl`](toh.pl)
 
 ---
 
-##  Output
+## Output
 _Output image not available in repository._
 
 ---
 
-##  Result
+## Result
 The **Tower of Hanoi problem** was successfully implemented in Prolog using recursion and first-order logic, producing the correct sequence of moves to transfer all disks from the source peg to the destination peg.

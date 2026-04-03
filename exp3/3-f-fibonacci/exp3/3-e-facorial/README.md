@@ -1,11 +1,11 @@
 #  Fibonacci in Prolog
 
-##  Aim
+## Aim
 To implement the **Fibonacci series** using **first-order logic** in Prolog.
 
 ---
 
-##  Algorithm
+## Algorithm
 
 1. **Base cases**
    - `fibonacci(0, 0)`
@@ -29,15 +29,15 @@ To implement the **Fibonacci series** using **first-order logic** in Prolog.
 
 ---
 
-##  Code
+## Code
 [`../../Fibonacci.pl`](../../Fibonacci.pl)
 
 ---
 
-##  Output
+## Output
 _Output image not available in repository._
 
 ---
 
-##  Result
+## Result
 The **Fibonacci series** was successfully implemented in Prolog using recursion and first-order logic, producing correct results for given inputs.

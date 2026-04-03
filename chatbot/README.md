@@ -1,6 +1,6 @@
 #  Simple Python Chatbot
 
-##  Author
+## Author
 
 **Name:** Kamesh
 
@@ -171,7 +171,7 @@ else:
 
 ---
 
-##  Program Flow
+## Program Flow
 
 1. Chatbot starts
 2. Displays welcome message

@@ -1,11 +1,11 @@
 #  Basic Arithmetic in Prolog
 
-##  Aim
+## Aim
 To implement **basic arithmetic operations** using **first-order logic** in Prolog.
 
 ---
 
-##  Algorithm
+## Algorithm
 
 1. **Define add/3**
    - Performs `X + Y`.
@@ -24,15 +24,15 @@ To implement **basic arithmetic operations** using **first-order logic** in Prol
 
 ---
 
-##  Code
+## Code
 [`arithmetic.pl`](arithmetic.pl)
 
 ---
 
-##  Output
+## Output
 _Output image not available in repository._
 
 ---
 
-##  Result
+## Result
 The **basic arithmetic operations** (addition, subtraction, multiplication, division) were successfully implemented in Prolog using **first-order logic** and produced correct results for given inputs.
