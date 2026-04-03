@@ -36,7 +36,7 @@ To simulate the **monkey and banana problem** using **logical reasoning** and **
 ---
 
 ## Output
-_Output image not available in repository._
+![Monkey Banana Output](output-images/3-c-monkey-banana-output.png)
 
 ---
 

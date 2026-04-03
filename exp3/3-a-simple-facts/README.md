@@ -33,7 +33,7 @@ To define a **knowledge base (simple facts)** and query it using **first-order p
 ---
 
 ## Output
-_Output image not available in repository._
+![Simple Facts Output](output-images/3-a-simple-facts-output.png)
 
 ---
 

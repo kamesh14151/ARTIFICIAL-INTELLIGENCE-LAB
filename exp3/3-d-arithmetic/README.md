@@ -30,7 +30,7 @@ To implement **basic arithmetic operations** using **first-order logic** in Prol
 ---
 
 ## Output
-_Output image not available in repository._
+![Arithmetic Output](output-images/3-d-arithmetic-output.png)
 
 ---
 

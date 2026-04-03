@@ -33,7 +33,7 @@ To implement and solve **AI-based problems** using **SWI-Prolog**, demonstrating
 ---
 
 ## Output
-_Output image not available in repository._
+![Family Facts Output](output-images/3-b-family-facts-output.png)
 
 ---
 

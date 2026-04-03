@@ -33,7 +33,7 @@ To implement the **Water Jug problem** using **first-order logic** in Prolog.
 ---
 
 ## Output
-_Output image not available in repository._
+![Water Jug Output](output-images/3-h-water-jug-output.png)
 
 ---
 

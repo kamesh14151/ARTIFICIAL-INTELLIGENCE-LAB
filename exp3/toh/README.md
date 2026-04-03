@@ -33,7 +33,7 @@ To implement the **Tower of Hanoi problem** using **first-order logic** in Prolo
 ---
 
 ## Output
-_Output image not available in repository._
+![Tower of Hanoi Output](output-images/toh-output.png)
 
 ---
 

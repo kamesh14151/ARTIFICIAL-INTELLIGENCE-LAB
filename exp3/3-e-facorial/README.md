@@ -34,7 +34,7 @@ To implement the **factorial function** using **first-order logic** in Prolog.
 ---
 
 ## Output
-_Output image not available in repository._
+![Factorial Output](output-images/3-e-facorial-output.png)
 
 ---
 

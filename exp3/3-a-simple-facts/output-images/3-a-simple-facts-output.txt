@@ -1,0 +1,2 @@
+like(john,pizza) = true
+may_steal(car,john) = true

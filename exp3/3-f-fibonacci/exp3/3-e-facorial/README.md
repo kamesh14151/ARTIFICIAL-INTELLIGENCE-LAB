@@ -35,7 +35,7 @@ To implement the **Fibonacci series** using **first-order logic** in Prolog.
 ---
 
 ## Output
-_Output image not available in repository._
+![Fibonacci Output](../../output-images/3-f-fibonacci-output.png)
 
 ---
 

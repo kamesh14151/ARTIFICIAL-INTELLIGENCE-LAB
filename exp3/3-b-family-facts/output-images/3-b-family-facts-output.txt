@@ -1,0 +1,3 @@
+father(john,mike) = true
+mother(mary,susan) = true
+siblings(mike,susan) = true
