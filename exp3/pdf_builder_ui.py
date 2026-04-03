@@ -62,7 +62,7 @@ class PDFBuilderUI:
         self.program_file_var = tk.StringVar(value="")
         self.image_file_var = tk.StringVar(value="")
         self.output_pdf_var = tk.StringVar(value="output.pdf")
-        self.size_var = tk.StringVar(value="Medium (2.0 inch)")
+        self.size_var = tk.StringVar(value="Slightly Big (2.8 inch)")
 
         self._build_ui()
 
@@ -112,7 +112,8 @@ class PDFBuilderUI:
             textvariable=self.size_var,
             values=[
                 "Small (1.8 inch)",
-                "Medium (2.0 inch)",
+                "Medium (2.4 inch)",
+                "Slightly Big (2.8 inch)",
                 "Large (3.2 inch)",
             ],
             state="readonly",
@@ -191,9 +192,11 @@ class PDFBuilderUI:
         value = self.size_var.get()
         if value.startswith("Small"):
             return 1.8
+        if value.startswith("Slightly Big"):
+            return 2.8
         if value.startswith("Large"):
             return 3.2
-        return 2.0
+        return 2.4
 
     def generate_pdf(self):
         title = self.title_var.get().strip()
@@ -250,7 +253,8 @@ class PDFBuilderUI:
             img_reader = ImageReader(str(image_file))
             img_width, img_height = img_reader.getSize()
 
-            scale = min(max_width / img_width, max_height / img_height, 1.0)
+            # Allow moderate upscaling so screenshots are easier to read.
+            scale = min(max_width / img_width, max_height / img_height, 1.35)
             draw_width = img_width * scale
             draw_height = img_height * scale
 

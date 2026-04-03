@@ -84,7 +84,8 @@ def build_pdf_bytes(
 
     max_width = 6.5 * inch
     max_height = image_height_inch * inch
-    scale = min(max_width / img_width, max_height / img_height, 1.0)
+    # Allow a little upscaling so low-resolution screenshots are not too tiny.
+    scale = min(max_width / img_width, max_height / img_height, 1.35)
 
     draw_width = img_width * scale
     draw_height = img_height * scale
@@ -142,18 +143,21 @@ def main():
             "Image height preset",
             options=[
                 "Small (1.8 inch)",
-                "Medium (2.0 inch)",
+                "Medium (2.4 inch)",
+                "Slightly Big (2.8 inch)",
                 "Large (3.2 inch)",
             ],
-            index=1,
+            index=2,
         )
 
         if size_preset.startswith("Small"):
             image_height_inch = 1.8
+        elif size_preset.startswith("Slightly Big"):
+            image_height_inch = 2.8
         elif size_preset.startswith("Large"):
             image_height_inch = 3.2
         else:
-            image_height_inch = 2.0
+            image_height_inch = 2.4
 
     st.divider()
 
