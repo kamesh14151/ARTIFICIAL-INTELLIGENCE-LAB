@@ -31,7 +31,7 @@ To simulate the **monkey and banana problem** using **logical reasoning** and **
 ---
 
 ## Code
-[`monkey-banana.pl`](monkey-banana.pl)
+[`monkey-banana.pl`](programs/monkey-banana.pl)
 
 ---
 

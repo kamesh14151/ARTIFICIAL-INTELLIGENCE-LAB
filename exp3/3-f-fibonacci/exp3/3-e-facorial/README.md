@@ -30,7 +30,7 @@ To implement the **Fibonacci series** using **first-order logic** in Prolog.
 ---
 
 ## Code
-[`../../Fibonacci.pl`](../../Fibonacci.pl)
+[`../../Fibonacci.pl`](../programs/Fibonacci.pl)
 
 ---
 

@@ -25,7 +25,7 @@ To implement **basic arithmetic operations** using **first-order logic** in Prol
 ---
 
 ## Code
-[`arithmetic.pl`](arithmetic.pl)
+[`arithmetic.pl`](programs/arithmetic.pl)
 
 ---
 

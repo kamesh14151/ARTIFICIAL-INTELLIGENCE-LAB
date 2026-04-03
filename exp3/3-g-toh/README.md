@@ -28,7 +28,7 @@ To implement the **Tower of Hanoi problem** using **first-order logic** in Prolo
 ---
 
 ## Code
-[`toh.pl`](toh.pl)
+[`toh.pl`](programs/toh.pl)
 
 ---
 

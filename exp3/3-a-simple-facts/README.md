@@ -28,7 +28,7 @@ To define a **knowledge base (simple facts)** and query it using **first-order p
 ---
 
 ## Code
-[`first-order.pl`](first-order.pl)
+[`first-order.pl`](programs/first-order.pl)
 
 ---
 

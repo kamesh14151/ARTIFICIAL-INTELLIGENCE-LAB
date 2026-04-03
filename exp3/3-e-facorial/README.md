@@ -29,7 +29,7 @@ To implement the **factorial function** using **first-order logic** in Prolog.
 ---
 
 ## Code
-[`factorial.pl`](factorial.pl)
+[`factorial.pl`](programs/factorial.pl)
 
 ---
 

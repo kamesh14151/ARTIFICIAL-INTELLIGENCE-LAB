@@ -28,7 +28,7 @@ To implement the **Water Jug problem** using **first-order logic** in Prolog.
 ---
 
 ## Code
-[`water-jug.pl`](water-jug.pl)
+[`water-jug.pl`](programs/water-jug.pl)
 
 ---
 

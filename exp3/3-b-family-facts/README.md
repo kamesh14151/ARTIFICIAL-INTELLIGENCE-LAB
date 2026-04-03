@@ -28,7 +28,7 @@ To implement and solve **AI-based problems** using **SWI-Prolog**, demonstrating
 ---
 
 ## Code
-[`family-facts.pl`](family-facts.pl)
+[`family-facts.pl`](programs/family-facts.pl)
 
 ---
 
