@@ -84,8 +84,8 @@ def build_pdf(output_pdf, title, program_path, output_image_path, image_height_i
     img_reader = ImageReader(str(output_image_path))
     img_width, img_height = img_reader.getSize()
 
-    # Preserve aspect ratio and avoid upscaling to keep screenshots sharper.
-    scale = min(max_width / img_width, max_height / img_height, 1.0)
+    # Preserve aspect ratio and allow mild upscaling so screenshots are readable.
+    scale = min(max_width / img_width, max_height / img_height, 1.35)
     draw_width = img_width * scale
     draw_height = img_height * scale
 
@@ -140,7 +140,7 @@ def main():
             "program": "programs/factorial.pl",
             "image": "output-images/3-e-facorial-output.png",
             "pdf": "3-e_Factorial.pdf",
-            "height": 1.8,
+            "height": 3.0,
         },
         {
             "folder": "3-f-fibonacci",
