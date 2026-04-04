@@ -1,4 +1,4 @@
-```md
+
 # Chatbot Implementation
 
 ## Aim
@@ -120,4 +120,4 @@ Bot: Goodbye! Have a nice day.
 ## Result
 
 A simple chatbot system was successfully implemented using Python. The chatbot interacts with the user, processes input, and provides appropriate responses based on predefined rules and pattern matching techniques.
-```
+
